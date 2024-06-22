@@ -15,7 +15,7 @@ const authLibreView = async function (username, password, device, setDevice) {
     Password: password
   };
 
-  const response = await axios.default.post('https://api.libreview.ru/lsl/api/nisperson/getauthentication', data, {
+  const response = await axios.default.post('https://api-eu.libreview.io/lsl/api/nisperson/getauthentication', data, {
     headers: {
       'Content-Type': 'application/json'
     }
@@ -81,7 +81,7 @@ const transferLibreView = async function (device, token, glucoseEntriesScheduled
     Domain: "Libreview"
   };
     
-  const response = await axios.default.post('https://api.libreview.ru/lsl/api/measurements', data, {
+  const response = await axios.default.post('https://api-eu.libreview.io/lsl/api/measurements', data, {
     headers: {
       'Content-Type': 'application/json'
     }
