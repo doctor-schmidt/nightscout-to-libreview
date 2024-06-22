@@ -96,7 +96,7 @@ const getNightscoutAllEntries = async function (baseUrl, token, fromDate, toDate
   const defaultProf = responseProf.data[0].defaultProfile;
   console.log('Default profile', defaultProf.green);
   
-  const timeZone = responseProf.data[0].store[defaultProf].timezone || "Europe/Moscow";
+  const timeZone = responseProf.data[0].store[defaultProf].timezone || "Europe/Paris";
   
   console.log('Profile Time Zone', timeZone.green);
   
