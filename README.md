@@ -25,9 +25,9 @@ npm start
 ```
 ## Credits
 
-Reimar Metzen (programming)
+Reimar Metzen (main programmer)
 
-Dmitry Levin (timezone correction)
+Dmitry Levin (adapt for timezone)
 
 ## Todo
 - many many testing!
