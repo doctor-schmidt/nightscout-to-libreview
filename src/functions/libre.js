@@ -46,7 +46,7 @@ const transferLibreView = async function (device, token, glucoseEntriesScheduled
         device: {
           hardwareDescriptor: "iPhone14,2",
           osVersion: "15.4.1",
-          modelName: "com.freestylelibre.app.ru",
+          modelName: "com.abbott.librelink.de",
           osType: "iOS",
           uniqueIdentifier: device,
           hardwareName: "iPhone"
