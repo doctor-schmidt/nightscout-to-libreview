@@ -11,11 +11,8 @@ Open command line in your favorite folder:
 
 ```
 git clone https://github.com/doctor-schmidt/nightscout-to-libreview
-
 cd nightscout-to-libreview
-
 npm install
-
 npm start
 ```
 ## Future use
@@ -24,9 +21,13 @@ Open command line in your favorite folder:
 
 ```
 cd nightscout-to-libreview
-
 npm start
 ```
+## Credits
+
+Reimar Metzen (programming)
+
+Dmitry Levin (timezone correction)
 
 ## Todo
 - many many testing!

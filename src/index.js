@@ -41,31 +41,31 @@ prompt.get([{
   default: config.librePassword
 }, {
   name: 'year',
-  description: 'please enter the year you want to transfer to libreview',
+  description: 'enter the year you want to transfer to libreview',
   required: true,
   type: 'number',
   default: new Date().getFullYear()
 }, {
   name: 'month',
-  description: 'please enter the month you want to transfer to libreview',
+  description: 'enter the month you want to transfer to libreview',
   required: true,
   type: 'number',
   default: new Date().getMonth() + 1
 }, {
   name: 'day',
-  description: 'please enter the day you want to transfer to libreview',
+  description: 'enter the last day you want to transfer to libreview',
   required: true,
   type: 'number',
   default: new Date().getDate()
 }, {
   name: 'count',
-  description: 'please enter amount of days before you want to transfer to libreview',
+  description: 'enter number of days you want to transfer to libreview',
   required: true,
   type: 'number',
-  default: 1
+  default: 92
 }, {
   name: 'libreResetDevice',
-  description: 'if you have problems with your transfer, recreate your device id',
+  description: 'if you have problems with your transfer, recreate the device id',
   required: true,
   type: 'boolean',
   default: false
