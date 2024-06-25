@@ -1,6 +1,7 @@
 # ignore folders
 node_modules
 samples
+.DS_Store
 
 # ignore config
 config.json
