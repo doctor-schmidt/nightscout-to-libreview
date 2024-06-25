@@ -62,7 +62,7 @@ prompt.get([{
   description: 'enter number of days you want to transfer to libreview',
   required: true,
   type: 'number',
-  default: 100
+  default: 92
 }, {
   name: 'libreResetDevice',
   description: 'if you have problems with your transfer, recreate the device id',
