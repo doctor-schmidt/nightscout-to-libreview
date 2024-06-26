@@ -2,6 +2,7 @@
 node_modules
 samples
 .DS_Store
+.package-lock.json
 
 # ignore config
 config.json
