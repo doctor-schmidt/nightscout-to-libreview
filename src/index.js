@@ -21,22 +21,22 @@ let config = JSON.parse(rawConfig);
 
 prompt.get([{
   name: 'nightscoutUrl',
-  description: 'please enter your nightscout url',
+  description: 'nightscout url',
   required: true,
   default: config.nightscoutUrl
 }, {
   name: 'nightscoutToken',
-  description: 'please enter your nightscout token',
+  description: 'nightscout token',
   required: false,
   default: config.nightscoutToken
 }, {
   name: 'libreUsername',
-  description: 'please enter your libreview username',
+  description: 'libreview username',
   required: true,
   default: config.libreUsername
 }, {
   name: 'librePassword',
-  description: 'please enter your libreview password',
+  description: 'libreview password',
   required: true,
   default: config.librePassword
 }, {
@@ -47,13 +47,13 @@ prompt.get([{
   default: new Date().getFullYear()
 }, {
   name: 'month',
-  description: 'enter the month you want to transfer to libreview',
+  description: 'enter the last month you want to transfer to libreview',
   required: true,
   type: 'number',
   default: new Date().getMonth() + 1
 }, {
   name: 'day',
-  description: 'enter the last day you want to transfer to libreview',
+  description: 'enter last day of month you want to transfer to libreview',
   required: true,
   type: 'number',
   default: new Date().getDate()
