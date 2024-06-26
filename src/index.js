@@ -65,7 +65,7 @@ prompt.get([{
   default: new Date().getDate()
 }, {
   name: 'libreResetDevice',
-  description: 'if you have problems with your transfer, recreate the device id',
+  description: 'recreate device id when transfer fails',
   required: true,
   type: 'boolean',
   default: false
