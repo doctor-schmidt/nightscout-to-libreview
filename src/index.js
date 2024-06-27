@@ -68,7 +68,7 @@ prompt.get([{
   description: 'recreate device id after failed transfer',
   required: true,
   type: 'boolean',
-  default: false
+  default: true
 }], function (err, result) {
   if (err) {
     return onErr(err);
